@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+   <!-- header section start -->
+     <header>
+        <!-- start -->
+        <div class="logo">
+            <div id="img"></div>
+        </div>
+
+        <!-- middle -->
+        <div class="navigation-bar">
+            <div class="ham">
+
+
+                <div class="close" style="color: black;" onclick="hide()">✖︎</div>
+
+                <div class="nav-2">
+                  <ul>
+                    <li id="nav-list-2">New & Featured <span>❯</span> </li>
+                    <li id="nav-list-2">Men            <span>❯</span> </li>
+                    <li id="nav-list-2">Women          <span>❯</span> </li>
+                    <li id="nav-list-2">Kids           <span>❯</span> </li>
+                    <li id="nav-list-2">Sale           <span>❯</span> </li>
+                    <li id="nav-list-2">SNKRS          <span>❯</span> </li>
+                  </ul>
+                </div>
+
+                <!-- jordan logo -->
+
+                <div class="jordan"><div id="jordan"></div><p style="color: black;">Jordan</p></div>
+
+                <!-- box -->
+                 <div class="signin-box">
+                       <div class="signin-text">Become a Nike Member for the best products, inspiration and stories in sport. <a href="#">Learn more</a></div>
+    
+                       <div class="signin-buttons">
+                         <button class="signin-btn-1">Join Us</button>
+                         <button class="signin-btn-2">Sign in</button>
+                      </div>
+
+                </div>
+
+                <!-- user item -->
+                 <div class="user-item">
+                  <ul>   
+                    <li> <svg id="svg1" ></svg>  Help</li>
+                    <li> <svg id="svg2" ></svg>  Bag</li>
+                    <li> <svg id="svg3" ></svg>  Orders</li>
+                    <li> <svg id="svg4" ></svg>  Find a Store</li>
+                  </ul>
+                 </div>
+                
+            </div>
+
+
+            <nav id="nav">
+                <ul>
+                    <li id="nav-list">New & Featured</li>
+                    <li id="nav-list">Men</li>
+                    <li id="nav-list">Women</li>
+                    <li id="nav-list">Kids</li>
+                    <li id="nav-list">Sale</li>
+                    <li id="nav-list">SNKRS</li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- end -->
+        <div class="search-section">
+            <!-- search-bar -->
+            <div id="search">
+               
+              <div class="container-input">
+                 <input type="text" placeholder="Search" name="text" class="input">
+                    <svg fill="#000000" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z" fill-rule="evenodd"></path>
+                    </svg>
+              </div>
+
+            </div>
+
+            <!-- cart -->
+            <div id="cart">
+                <image class="cart"></image>
+            </div>
+            
+            <!-- profile -->
+            <div id="profile">
+               <image class="profile"></image>
+            </div>
+
+             <div class="hamburger-icon"  style="color: black;" onclick="show()">☰</div>
+
+        </div>
+     </header>
+   <!-- header section end -->
+     
+   <!-- hero section -->
+   <main>
+     
+     <!-- hero section -->
+    <div class="hero-section">
+
+      <!-- hero text -->
+          <div class="hero-text">
+             <h1 id="h">NEW</h1>
+             <h6 id="hero-h1">NIKE</h6>
+
+             <div class="max">  <h1 id="hero-h2">AIR MAX</h1> <p  id="hero-p1">Shop the latest Jordan styles</p> </div>
+             <button class="hero-btn">Shop Now</button>
+          </div>
+
+      <!-- hero-image -->
+          <div class="hero-image" ></div>
+    </div>
+    <!-- hero section end -->
+
+  </main>
+  
+  <!-- end of hero section -->
+  
+   <hr>
+   
+
+   <!--featured section -->
+   <!-- 1 -->
+   <div class="featured-section">
+    <h3 class="feature">Nike Basketball</h3>
+    <h1 class="feature-2">PEARLS OF WISDOM</h1>
+    <p class="feature-p1">The A’One ‘OG Pearl.’ Inspired by the pearls A’ja’s grandmother gifted her</p>
+    <p class="feature-p2">as a symbol of strength.</p>
+    <button class="feature-btn">Shop</button>
+   </div>
+
+   <!-- 2 -->
+   <div class="featured-section-2">
+    <h2 class="featured-1">Featured</h2>
+    <div class="featured-2">
+      <button class="featured-btn-1" id="leftArrowBtn">➜</button>
+      <button class="featured-btn-2" id="rightArrowBtn">➜</button>
+    </div>
+   </div>
+   <!-- container -->
+    <div class="container-slider">
+      <div class="slider" id="scrollContainer">
+        <div class="slide slide-1"> <img src="images/f1.jpeg" alt=""> <h2>"Jakob Essentials" Collection</h2> </div>
+        <div class="slide slide-2"> <img src="images/f2.jpeg" alt=""> <h2>Kick It Into Gear</h2> </div>
+        <div class="slide slide-3"> <img src="images/f3.jpeg" alt=""> <h2>Zenvy Leggings</h2> </div>
+        <div class="slide slide-4"> <img src="images/f4.jpeg" alt=""> <h2>Luka 4 ‘Bloodline’</h2> </div>
+        <div class="slide slide-5"> <img src="images/f2.jpeg" alt=""> <h2>Kick It Into Gear</h2> </div>
+        <div class="slide slide-6"> <img src="images/f1.jpeg" alt=""> <h2>"Jakob Essentials" Collection</h2> </div>
+      </div>
+
+    </div>
+    <!-- container end -->
+
+   <!-- featured section end -->
+
+  <!-- video  -->
+ <div class="video11">Don't miss</div>
+  <video autoplay muted loop preload="metadata"  src="videos/video1.mp4" class="video1"></video>
+  <!-- video end -->
+
+<!-- new section -->
+    <!-- 1 -->
+   <div class="featured-section" >
+    <h3 class="feature">Jordan Air Rev</h3>
+    <h1 class="feature-2">LOCK IN & LET IT FLY.</h1>
+    <p class="feature-p1">Perfect your swing from range to 18 with jordans first performance-led golf shoe</p>
+    <button class="feature-btn">Shop</button>
+   </div>
+
+<!-- section end -->
+
+
+<!-- shop section -->
+<!-- 2 -->
+   <div class="featured-section-21">
+    <h2 class="featured-11">Featured</h2>
+    <div class="featured-21">
+      <button class="featured-btn-11" id="leftArrow-Btn">➜</button>
+      <button class="featured-btn-21" id="rightArrow-Btn">➜</button>
+    </div>
+   </div>
+   <!-- container -->
+    <div class="container-slider1">
+      <div class="slider1" id="scroll-Container">
+        <div class="slide slide-11"> <img src="pictures/p1.png" alt=""> <h2>"Jakob Essentials" Collection</h2> </div>
+        <div class="slide slide-12"> <img src="pictures/p2.jpeg" alt=""> <h2>Kick It Into Gear</h2> </div>
+        <div class="slide slide-13"> <img src="pictures/p3.jpeg" alt=""> <h2>Zenvy Leggings</h2> </div>
+        <div class="slide slide-14"> <img src="pictures/p4.jpeg" alt=""> <h2>Luka 4 ‘Bloodline’</h2> </div>
+        <div class="slide slide-15"> <img src="pictures/p5.jpeg" alt=""> <h2>Kick It Into Gear</h2> </div>
+        <div class="slide slide-16"> <img src="pictures/p7.jpeg" alt=""> <h2>"Jakob Essentials" Collection</h2> </div>
+        <div class="slide slide-18"> <img src="pictures/p8.jpeg" alt=""> <h2>"Jakob Essentials" Collection</h2> </div>
+        <div class="slide slide-19"> <img src="pictures/p9.jpeg" alt=""> <h2>"Jakob Essentials" Collection</h2> </div>
+        <div class="slide slide-10"> <img src="pictures/p10.jpeg" alt=""> <h2>"Jakob Essentials" Collection</h2> </div>
+      </div>
+
+    </div>
+
+    <!-- shop section end -->
+    
+    <!-- FOOTER SECTION START -->
+     <footer>
+       <!--contents  -->
+      <div class="contents">
+
+        <div class="content-1">
+          <div><h2>Resources</h2> <p id="nm" onclick="hello()">﹀</p> <p id="nn" onclick="hello2()">︿</p></div>
+          <ul id="ul">
+            <li id="content-inside" style="color: rgba(0, 0, 0, 0.727);">Find A Store</li>
+            <li id="content-inside" style="color: rgba(0, 0, 0, 0.727);">Become A Members</li>
+            <li id="content-inside" style="color: rgba(0, 0, 0, 0.727);">Running Shoe Finder</li>
+            <li id="content-inside" style="color: rgba(0, 0, 0, 0.727);">Product Advice</li>
+            <li id="content-inside" style="color: rgba(0, 0, 0, 0.727);">Send Us Feedback</li>
+          </ul>
+        </div>
+
+        <div class="content-2">
+          <div><h2>Help</h2> <p id="op" onclick="hi()">﹀</p> <p id="qr" onclick="hi2()">︿</p></div>
+          <ul id="ol">
+            <li class="content-inside" style="color: rgba(0, 0, 0, 0.727);">Get Help</li>
+            <li class="content-inside" style="color: rgba(0, 0, 0, 0.727);">Order Status</li>
+            <li class="content-inside" style="color: rgba(0, 0, 0, 0.727);">Delivery</li>
+            <li class="content-inside" style="color: rgba(0, 0, 0, 0.727);">Returns</li>
+            <li class="content-inside" style="color: rgba(0, 0, 0, 0.727);">Payment Options</li>
+            <li class="content-inside" style="color: rgba(0, 0, 0, 0.727);">Contact Us</li>
+          </ul>
+        </div>
+
+        <div class="content-3">
+          <div><h2>company</h2> <p id="st" onclick="bye()">﹀</p> <p id="uv" onclick="bye2()">︿</p></div>
+          <ul id="pl">
+            <li class="contents-inside"  style="color: rgba(0, 0, 0, 0.727);">About Nike</li>
+            <li class="contents-inside"  style="color: rgba(0, 0, 0, 0.727);">News</li>
+            <li class="contents-inside"  style="color: rgba(0, 0, 0, 0.727);">Careers</li>
+            <li class="contents-inside"  style="color: rgba(0, 0, 0, 0.727);">Investors</li>
+            <li class="contents-inside"  style="color: rgba(0, 0, 0, 0.727);">Sustainability</li>
+            <li class="contents-inside"  style="color: rgba(0, 0, 0, 0.727);">Impact</li>
+            <li class="contents-inside"  style="color: rgba(0, 0, 0, 0.727);">Report a Concern</li>
+          </ul>
+        </div>
+        <div class="content-4">
+          <div class="c-4">
+          <img src="svg/internet-svgrepo-com.svg" alt="">
+          <h2>India</h2>
+        </div>
+        </div>
+      </div>
+
+
+      <!-- contents-2 -->
+       <div class="contents-2">
+        <a href="https://github.com/satyam-umrao">Github Profile</a>
+       </div>
+
+
+     </footer>
+    <!-- footer section end -->
+  
+
+
+   <!-- script -->
+    <script src="script.js"></script>
+    <!-- script end -->
+</body>
+</html>
+
+
