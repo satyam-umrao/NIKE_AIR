@@ -63,7 +63,7 @@ NIKE_AIR/
 
 ## 📸 Screenshots
 
-<img src="cc.jpeg"></img>
+<img src="images/cc.png"></img>
 
 ## 📌 Notes
 
